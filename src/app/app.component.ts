@@ -16,7 +16,7 @@ export class AppComponent {
   b=5;
   openDialog() {
     this.dialog.open(DialogComponent, {
-      width:'30%'
+      width:'40%'
       // data: {
       //   animal: 'panda',
       // },
