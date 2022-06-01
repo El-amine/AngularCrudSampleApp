@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { DialogComponent } from './dialog/dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularApplication';
+  constructor(private dialog:MatDialog){
+
+  }
+  title = 'WELCOME TO KADER ANGULAR DEMO !!';
+  length=100;
+  b=5;
+  openDialog() {
+    this.dialog.open(DialogComponent, {
+      width:'30%'
+      // data: {
+      //   animal: 'panda',
+      // },
+    });
+  }
 }
