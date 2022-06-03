@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 500,
+      "date": "2022-06-02T00:00:00.000Z",
+      "comment": "This is a fresh apple",
+      "id": 1
+    },
+    {
+      "productName": "Mangoes",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 50,
+      "date": "2022-06-02T00:00:00.000Z",
+      "comment": "Not fresh",
+      "id": 2
+    },
+    {
+      "productName": "Tomatoes",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 500,
+      "date": "2022-06-03T00:00:00.000Z",
+      "comment": "Nice",
+      "id": 3
+    },
+    {
+      "productName": "Mac Book Pro",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 250,
+      "date": "2022-06-03T00:00:00.000Z",
+      "comment": "New one",
+      "id": 5
+    },
+    {
+      "productName": "IPHONE",
+      "category": "Electronics",
+      "freshness": "Refurbished",
+      "price": 500,
+      "date": "2022-06-03T00:00:00.000Z",
+      "comment": "Test",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

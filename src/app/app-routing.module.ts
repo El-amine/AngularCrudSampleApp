@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {EmployeeAddComponent} from './employee-add/employee-add.component';
-import {EmplistingComponent} from './emplisting/emplisting.component';
 import {HomeComponent} from './home/home.component';
 import {LoginComponent} from './login/login.component';
 
